@@ -20,7 +20,7 @@ function UserSignUpPage() {
   });
 
   useEffect(() => {
-    if(user){
+    if(user.loggedInUser){
       navigate("/")
     }
   }, [user])

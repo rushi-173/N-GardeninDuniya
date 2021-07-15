@@ -25,7 +25,7 @@ function UserSignInPage() {
     password: null,
   });
   useEffect(() => {
-    if(user){
+    if(user.loggedInUser){
       navigate("/")
     }
   }, [user])
