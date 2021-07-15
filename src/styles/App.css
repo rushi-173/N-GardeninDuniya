@@ -1,0 +1,90 @@
+.profile-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-wrapper{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pheader{
+    max-width: 600px;
+    width: 100vh;
+    border-bottom: 1px solid #888;
+    padding-bottom: 1rem;
+}
+
+.Login{
+    width: 100%;
+    height: 100%;
+}
+
+.social-login .btn{
+    width: 30%;
+}
+
+.btn-login{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.div-sm-parent{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.div-sm-child{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion-div{
+    border: 1px solid var(--color-grey-bg);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.f-user-card{
+    display: flex;
+    width: 100vh;
+    max-width: 350px;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border: 1px solid var(--color-grey-bg);
+    align-items: center;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.div-new-post{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+	.social-login .btn{
+        width: 33%;
+        margin: 0rem;
+        padding:  0.4rem 0.2rem;
+        font-size: 0.8rem;
+        overflow: hidden;
+    }
+}
